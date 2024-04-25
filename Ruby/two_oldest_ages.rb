@@ -15,4 +15,5 @@
 
 def two_oldest_ages(ages)
     ages.sort[-2..-1]
+    # ages.sort.last(2) alternative solution
   end
