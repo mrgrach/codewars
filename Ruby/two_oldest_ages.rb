@@ -13,7 +13,10 @@
 # [1, 5, 87, 45, 8, 8] --> [45, 87]
 # [1, 3, 10, 0]) --> [3, 10]
 
+ages = [1, 2, 10, 8]
+ages = [1, 5, 87, 45, 8, 8]
+
 def two_oldest_ages(ages)
-    ages.sort[-2..-1]
-    # ages.sort.last(2) alternative solution
-  end
+  puts ages.sort[-2..-1]
+  # ages.sort.last(2) alternative solution
+end
