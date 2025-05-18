@@ -24,6 +24,23 @@ def rps(p1, p2)
     end  
 end
 
+# solution with hash (mapping)
+# def rps(p1, p2)
+#     #your code here
+#     rpsmap = {
+#       "scissors" => "paper",
+#       "paper" => "rock",
+#       "rock" => "scissors",
+#     }
+#     if p1 == p2
+#       "Draw!"
+#     elsif rpsmap[p1] == p2
+#       "Player 1 won!"
+#     else 
+#       "Player 2 won!"
+#     end  
+# end
+
 rps("scissors", "paper")   # => "Player 1 won!"
 rps("scissors", "rock")    # => "Player 2 won!"
 rps("paper", "paper")      # => "Draw!"
